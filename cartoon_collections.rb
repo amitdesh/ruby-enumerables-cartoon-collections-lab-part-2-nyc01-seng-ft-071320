@@ -26,8 +26,9 @@ def find_valid_calls(planeteer_calls)
     while count < valid_calls.length do
       if calls == valid_calls[count]
         truth = calls
-        return truth
+        break
       end
     end
   end
+  return truth
 end
