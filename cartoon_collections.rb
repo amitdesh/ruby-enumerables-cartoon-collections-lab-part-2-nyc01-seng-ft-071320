@@ -24,3 +24,4 @@ def find_valid_calls(planeteer_calls)
     valid_calls.any? do |ee|
   end
 end
+end
